@@ -1,0 +1,135 @@
+div{
+    background-color:aqua ;
+    height: 900px;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    transform: .5s;
+}
+.cara{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin: 0 auto;
+    z-index: 3;
+}
+.sombrero{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 190px;
+        margin: 0 auto;
+        z-index: 4;
+        transition: .5s;
+}
+.sombrero:hover{
+    cursor: pointer;
+    top: 170px;
+}
+.oi{    
+    position: absolute;
+    left: 665px;
+    top: 310px;
+    z-index: 2;
+    transition: .5s;
+}
+.oi:hover{
+    cursor: pointer;
+    left: 700px;
+}
+.od{
+        
+    position: absolute;
+    right: 665px;   
+    top: 310px;
+    z-index: 2;
+    transition: .5s;
+}
+.od:hover{
+    cursor: pointer;
+    right: 700px;
+}
+
+.oji{
+    position: absolute;
+    left: 775px;
+    top: 330px;
+    z-index: 5;
+    transition: .5s;
+}
+.oji:hover{
+    transform: scale(1.2);
+}
+.ojd{
+    position: absolute;
+    right: 775px;
+    top: 330px;
+    z-index: 5;
+    transition: .5s;
+}
+.ojd:hover{
+    transform: scale(1.2);
+}
+.nariz{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 390px;
+    margin: 0 auto;
+    z-index: 6;
+    transition: .5s;
+}
+.nariz:hover{
+    transform: scale(0.0);
+}
+.bigote{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 510px;
+    margin: 0 auto;
+    z-index: 4;
+    transition: .5s;
+}
+.bigote:hover{
+    transform: rotate(360deg);
+}
+.pi{
+    position: absolute;
+    left: 715px;
+    top: 600px;
+    z-index: 2;
+    transition: .5s;
+}
+.pi:hover{
+    transform: rotate(20deg);
+}
+.pd{
+    position: absolute;
+    right: 715px;
+    top: 600px;
+    z-index: 2;
+    transition: .5s;
+}
+.pd:hover{
+    transform: rotate(-20deg);
+}
+div{
+    animation: pulse 10s infinite;
+}
+@keyframes pulse {
+    0% {
+      background: url(../img/esenario1.png);
+      background-size: cover;
+    }
+    50%{
+        background: url(../img/señoracaradepapa.jfif.jpeg);
+        background-size: cover;
+    }
+    100% {
+      background: url(https://cdn2.telediario.mx/uploads/media/2023/08/10/senor-cara-de-papa-hidreley.jpg);
+      background-size: cover;
+    }
+  }
